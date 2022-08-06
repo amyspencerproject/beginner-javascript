@@ -15,6 +15,8 @@ My notes for this Beginner JavaScript course by Wes Bos
 Installed Wes's ESLint-Prettier config package. This downloaded ESLint with a Prettier plugin locally in the begginer-javascript directory.
 Here is the [REPO](https://github.com/wesbos/eslint-config-wesbos) with directions for installing.
 
+If you want to disable ESLint for an entire file `/* eslint-disable */` or for just a line use `/* eslint-disable-line */` using a block comment instaad of a `//` line comment
+
 ## Running Scripts
 
 Put `<script></script>` tags right bebore the HTML closing `</body>` tag. Do not put anywhere above the DOM because things run in order and if JS is looking for the DOM before it loads you will return a null.
@@ -40,3 +42,24 @@ if (age > 10) {
     console.log('You are old');
 }
 ```
+
+**concatination**: two or more strings are combined into one using `+`
+
+**interpolation**: when you put a variable inside of a string using `${variable}`
+
+## 7 types in Javascript
+
+SNOB'N'US - This is a crazy acronym that Wes came up with 😂
+
+Sting
+Number
+Boolean
+Null
+Undefined
+Symbol
+
+Object
+
+### Strings
+
+Strings can be wrapped in `''` or `""` or ` `` `. I learned to use double quotes initially. The ESLint config I am using for this course uses single quotes. If you want use either single or double quotes in the actual string then you would use a forward slash `\` called an escape, eg ` 'She\'s so cool'`. There are advantages to using back ticks like never having to worry about single or double quote or escape usage in the string. Also back ticks can handle line breaks in the string easily. You can also put html right into the string and have it render to the DOM.
