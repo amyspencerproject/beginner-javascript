@@ -53,13 +53,20 @@ SNOB'N'US - This is a crazy acronym that Wes came up with 😂
 
 Sting
 Number
+Object
 Boolean
 Null
 Undefined
 Symbol
 
-Object
-
 ### Strings
 
-Strings can be wrapped in `''` or `""` or ` `` `. I learned to use double quotes initially. The ESLint config I am using for this course uses single quotes. If you want use either single or double quotes in the actual string then you would use a forward slash `\` called an escape, eg ` 'She\'s so cool'`. There are advantages to using back ticks like never having to worry about single or double quote or escape usage in the string. Also back ticks can handle line breaks in the string easily. You can also put html right into the string and have it render to the DOM.
+Strings can be wrapped in `''` or `""` or ` `` `. I learned to use double quotes initially. The ESLint config I am using for this course uses single quotes. If you want use either single or double quotes in the actual string then you would use a forward slash `\` called an escape, eg ` 'She\'s so cool'`. I was warned by a JS developer that escaping can be very confusing so he just does back ticks for those special circumstances where quotes are needed. There are advantages to using back ticks like never having to worry about single or double quote or escape usage in the string. Also back ticks can handle line breaks in the string easily. You can also put html right into the string and have it render to the DOM.
+
+### Numbers
+
+Numbers are pretty straight forward. Check out line 37 an onward in the types.js file to see examples of how to round, get remainders, get random numbers, and handle money conversions. One thing to remember is that NaN stands for not a number but is a number when you check its type.
+
+### Objects
+
+Everything in JavaScript is an object so they are the building blocks. Objects are groups or collections of properties. They are not ordered. If you need specific order then use an array with indexing. The most common way to access the value of a specific property is with dot notation `person.first` returns 'Wes', `person.last` returns 'Bos'.

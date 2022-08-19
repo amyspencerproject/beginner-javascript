@@ -77,7 +77,17 @@
 // console.log(typeof notANumber); //returns number bc still catagorized as a number
 
 
-//BOOLEAN
+//OBJECT
+
+const person = {
+    first: 'Wes',
+    last: 'Bos',
+    age: 100
+};
+
+//note that this returns properties in alphabetical order not in the order created
+//order does not matter in objects
+console.log(person); 
 
 
 
