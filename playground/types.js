@@ -79,15 +79,46 @@
 
 //OBJECT
 
-const person = {
-    first: 'Wes',
-    last: 'Bos',
-    age: 100
-};
+// const person = {
+//     first: 'Wes',
+//     last: 'Bos',
+//     age: 100
+// };
 
-//note that this returns properties in alphabetical order not in the order created
-//order does not matter in objects
-console.log(person); 
+// //note that this returns properties in alphabetical order not in the order created
+// //order does not matter in objects
+// console.log(person); 
+
+
+//NULL and UNDEFINED
+// let somethingUndefined; //returns undefined
+// const somethingNull = null;
+
+// //Cher is a mononym. She has never had a last name. So object Cher will return undefined for last name
+// cher = {
+//     first: 'Cher',
+// }
+
+// // Teller had a last name but legall changed his name to just Teller. So object Teller will return null for last name
+// teller = {
+//     first: 'Raymond',
+//     last: 'Teller'
+// }
+
+// teller.first = 'Teller';
+// teller.last = null;
+
+//BOOLEAN and EQUAL
+
+let age = 100;
+
+let age2 = 100;
+
+let age3 = "100";
+
+//Triple === will check both value and type
+//double == will check value only
+
 
 
 

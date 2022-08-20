@@ -70,3 +70,17 @@ Numbers are pretty straight forward. Check out line 37 an onward in the types.js
 ### Objects
 
 Everything in JavaScript is an object so they are the building blocks. Objects are groups or collections of properties. They are not ordered. If you need specific order then use an array with indexing. The most common way to access the value of a specific property is with dot notation `person.first` returns 'Wes', `person.last` returns 'Bos'.
+
+### Symbols
+
+Sybols are there own type in JS but are not routinely used. They can be place in a vairable name if it needs a special distinction.
+
+### Null and Undefined
+
+Undefined is what is returned when a variable has been named or defined but no value has been set.
+Null has a value of nothing.
+
+### Boolean and Equal
+
+Boolean is simply true or false. Equal has two modes. Triple === will check both value and type
+double == will check value only. Best practices is to use triple to avoind confusion with strings
