@@ -1,10 +1,10 @@
-// console.log('Hooray it works!');
+console.log('Hooray it works!');
 
 // STRINGS
 /* eslint-disable */
 // const first = 'Amy';
-// const middle = "C";
-// const last = `Spencer`;
+//const middle = "C";
+//const last = `Spencer`;
 
 // const string = "She's so cool";
 // // const string2 = "She's so "cool"";
@@ -33,8 +33,8 @@
 // `;
 
 // document.body.innerHTML = html;
-
-//NUMBERS
+ 
+// NUMBERS
 
 // const integer = 100;
 // const float = 102.32;
@@ -55,19 +55,19 @@
 
 // const candies = 20;
 // const kids = 3;
-// const eachKidGets = (candies/kids); //gives 6.666667 
+// const eachKidGets = (candies/kids); //gives 6.666667
 // const eachKidReallyGets = Math.floor(eachKidGets); //gives 6
 // const remainingCandies = candies - eachKidReallyGets; //gives 2
-// // or use the % module method to do division, round down, and return the whole integer remainder 
-// const dadGets = candies % kids; //gives 2 
+// // or use the % module method to do division, round down, and return the whole integer remainder
+// const dadGets = candies % kids; //gives 2
 
 // console.log(window.location = `https://${0.1+0.2}.com`); //take you to floating point math website
-//vaguely remember this from NMR experiments. Be careful using decimals.
+// vaguely remember this from NMR experiments. Be careful using decimals.
 
-//keep prices in cents until being displayed to avoid errors from floating point math
+// keep prices in cents until being displayed to avoid errors from floating point math
 // const price = 1034; //$10.34
 
-//infinity and negative infinity
+// infinity and negative infinity
 // const exponent = 10 ** 2; //returns 100
 // const exponentInfinity = 1000 ** 200 //returns infinity
 // console.log(type of exponentInfinity); //returns number
@@ -76,8 +76,7 @@
 // console.log(notANumber); //returns NaN
 // console.log(typeof notANumber); //returns number bc still catagorized as a number
 
-
-//OBJECT
+// OBJECT
 
 // const person = {
 //     first: 'Wes',
@@ -87,10 +86,9 @@
 
 // //note that this returns properties in alphabetical order not in the order created
 // //order does not matter in objects
-// console.log(person); 
+// console.log(person);
 
-
-//NULL and UNDEFINED
+// NULL and UNDEFINED
 // let somethingUndefined; //returns undefined
 // const somethingNull = null;
 
@@ -99,7 +97,7 @@
 //     first: 'Cher',
 // }
 
-// // Teller had a last name but legall changed his name to just Teller. So object Teller will return null for last name
+// // Teller had a last name but legally changed his name to just Teller. So object Teller will return null for last name
 // teller = {
 //     first: 'Raymond',
 //     last: 'Teller'
@@ -108,19 +106,15 @@
 // teller.first = 'Teller';
 // teller.last = null;
 
-//BOOLEAN and EQUAL
+// BOOLEAN and EQUAL
 
-let age = 100;
+// let age = 100;
 
-let age2 = 100;
+// let age2 = 100;
 
-let age3 = "100";
+// let age3 = "100";
 
-//Triple === will check both value and type
-//double == will check value only
-
-
-
-
+// Triple === will check both value and type
+// double == will check value only
 
 
